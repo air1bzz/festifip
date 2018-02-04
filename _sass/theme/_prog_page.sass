@@ -1,3 +1,5 @@
+$normal-color: #2D1C15
+
 #prog-page
   main
     position: relative
@@ -8,8 +10,72 @@
 #band
   margin-left: 20px
   h2
-    font-family: 'ChunkFive'
+    font-family: 'ChunkFive', 'Arial', serif
     font-size: 2.2em
     font-weight: normal
     color: #738496
     margin-top: -6px
+    margin-bottom: 0px
+  .band-text
+    font-family: 'Arial', serif
+    font-size: 0.9em
+    width: 550px
+
+
+#band-description
+  margin: -9px 0 0 0
+  font-family: 'Times New Roman', 'Arial', serif
+  font-size: 1.3em
+
+#band-date
+  margin: 5px 0 0 0
+  font-family: 'Arial', serif
+  font-size: 1em
+  color: #CEA227
+  font-weight: bold
+  font-stretch: condensed
+
+#prog
+  position: relative
+  top: 70px
+  nav
+    display: flex
+    justify-content: space-around
+    margin-top: 10px
+    div
+      display: flex
+      flex-direction: column
+      align-items: center
+      font-family: 'ChunkFive', 'Arial', serif
+      h2
+        cursor: pointer
+        margin-top: 2px
+        margin-bottom: 0
+        font-size: 1.1em
+        font-weight: normal
+        color: $normal-color
+
+      p
+        margin-top: -6px
+        font-family: 'Arial', serif
+        font-size: 0.8em
+        font-weight: normal
+        margin-bottom: 3px
+        color: $normal-color
+
+#prog-banner
+  display: flex
+  flex-direction: column
+  align-items: center
+
+#saturday
+  position: relative
+  left: 53px
+
+#saturday-night
+  position: relative
+  left: 30px
+
+#sunday
+  position: relative
+  left: -6px
