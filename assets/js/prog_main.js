@@ -63,8 +63,8 @@ var bands = {
     ],
     links: ['https://lessepanous.wordpress.com/']
   },
-  noc: {
-    title: 'N.O.C.',
+  moc: {
+    title: 'M.O.C.',
     desc: 'spectacle reconstitutionniste - Cie Le Kmar',
     date: 'SAMEDI – Horaires du 3ème type – Lieu inconnu',
     para: [
