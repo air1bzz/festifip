@@ -6,14 +6,15 @@ permalink: /programmation/
 ---
 
 <main>
-  <img src="../assets/img/zikhope.jpg" alt="">
+  <img id="band-img" src="../assets/img/zikhope.jpg" alt="muma">
   <section id="band">
-    <h2>Collectif MuMA + Jam Session</h2>
+    <h2 id="band-title">Collectif MuMA + Jam Session</h2>
     <p id="band-description">concert d'ouverture du festival</p>
     <p id="band-date">VENDREDI - 21H00 - CAFÉ CHEZ TONTON, Place de l'église</p>
-    <p class="band-text">Ces jeunes musiciens se sont rencontrés récemment à <a class="band-text" href="https://trempo.com/formations/formations-qualifiantes/">Trempolino</a> dans le cadre d'une formation certifiée, intitulée MuMA "Musiciens des Musiques Actuelles."</p>
+    <p class="band-text">Ces jeunes musiciens se sont rencontrés récemment à Trempolino dans le cadre d'une formation certifiée, intitulée MuMA "Musiciens des Musiques Actuelles."</p>
     <p class="band-text">Compositions, reprises, improvisations... préparez-vous à un répertoire varié !</p>
     <p class="band-text">Après le concert, venez avec votre voix ou vos instrus pour taper le boeuf...</p>
+    <a class="band-text" href="https://trempo.com/formations/formations-qualifiantes/">https://trempo.com/formations/formations-qualifiantes/</a>
   </section>
 </main>
 
@@ -25,77 +26,77 @@ permalink: /programmation/
 
   <nav id="nav-prog">
     <section id="saturday">
-      <div>
-        <h2>DE VICTOR A VICTOR</h2>
+      <div id="victor">
+        <h2 onclick="bandMain('victor')">DE VICTOR A VICTOR</h2>
         <p>Cie Pied'né</p>
       </div>
-      <div>
-        <h2>LE DERAILLEUR</h2>
+      <div id="derailleur">
+        <h2 onclick="bandMain('derailleur')">LE DERAILLEUR</h2>
         <p>Cie Bitonio</p>
       </div>
-      <div>
-        <h2>SNSM</h2>
+      <div id="snsm">
+        <h2 onclick="bandMain('snsm')">SNSM</h2>
         <p>MicMac Cie</p>
       </div>
-      <div>
-        <h2>LES PETITES CHOSES</h2>
-        <p>Momette</p>
-      </div>
-      <div>
-        <h2>RAYONNANTES</h2>
+      <div id="rayonnantes">
+        <h2 onclick="bandMain('rayonnantes')">RAYONNANTES</h2>
         <p>Mr. Charly</p>
       </div>
-      <div>
-        <h2>LES SEPANOUS</h2>
+      <div id="sepanous">
+        <h2 onclick="bandMain('sepanous')">LES SEPANOUS</h2>
         <p>musique à mioches</p>
       </div>
-      <div>
-        <h2>ACCROCHE-TOI SI TU PEUX</h2>
+      <div id="noc">
+        <h2 onclick="bandMain('noc')">N.O.C</h2>
+        <p>spectacle reconstitutionniste - Cie Le Kmar</p>
+      </div>
+      <div id="accroche">
+        <h2 onclick="bandMain('accroche')">ACCROCHE-TOI SI TU PEUX</h2>
         <p>Cie les Invendus</p>
       </div>
     </section>
     <section id="saturday-night">
-      <div>
-        <h2>L'ARETE INUTILE</h2>
+      <div id="inutile">
+        <h2 onclick="bandMain('inutile')">L'ARETE INUTILE</h2>
         <p>performance peinture</p>
       </div>
-      <div>
-        <h2>APERIP-HOP</h2>
+      <div id="aperip">
+        <h2 onclick="bandMain('aperip')">APERIP-HOP</h2>
         <p>Collectif Zik'Hope</p>
       </div>
-      <div>
-        <h2>GUM OVER</h2>
+      <div id="gum">
+        <h2 onclick="bandMain('gum')">GUM OVER</h2>
         <p>Cie Lombric Spaghetti</p>
       </div>
-      <div>
-        <h2>FONKY NYCO</h2>
+      <div id="fonky">
+        <h2 onclick="bandMain('fonky')">FONKY NYCO</h2>
         <p>garage funk</p>
       </div>
-      <div>
-        <h2>SLOBODAN EXPERIMENT</h2>
+      <div id="slobodan">
+        <h2 onclick="bandMain('slobodan')">SLOBODAN EXPERIMENT</h2>
         <p>balkanic surf rock</p>
       </div>
-      <div>
-        <h2>DANCE ON ZE FLOOR</h2>
+      <div id="floor">
+        <h2 onclick="bandMain('floor')">DANCE ON ZE FLOOR</h2>
         <p>FIP sound system</p>
       </div>
     </section>
     <section id="sunday">
-      <div>
-        <h2>PICK-NIC GEANT</h2>
-        <p>pique-nique collectif</p>
+      <div id="iode">
+        <h2 onclick="bandMain('iode')">APERO IODE</h2>
+        <p>et buffet dominicool !</p>
       </div>
-      <div>
-        <h2>LES FIIIIIIILLES</h2>
+      <div id="filles">
+        <h2 onclick="bandMain('filles')">LES FIIIIIIILLES</h2>
         <p>chorale au féminin</p>
       </div>
-      <div>
-        <h2>FERVAND COMBAT L'INVISIBLE</h2>
+      <div id="fervand">
+        <h2 onclick="bandMain('fervand')">FERVAND COMBAT L'INVISIBLE</h2>
         <p>clown Fervand</p>
       </div>
-      <div>
-        <h2>+ CONCERT D'OUVERTURE</h2>
-        <p>avec le collectif <span>MuMa + Jam Session</span></p>
+      <div id="muma">
+        <h2 onclick="bandMain('muma')">+ CONCERT D'OUVERTURE</h2>
+        <p>avec le collectif <span>MuMA + Jam Session</span></p>
         <p>VENDREDI 30 MARS - 21H00 - CAFÉ CHEZ TONTON</p>
       </div>
     </section>
