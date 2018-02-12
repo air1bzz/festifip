@@ -22,8 +22,8 @@ var bands = {
     ],
     links: ['http://ciepiedne.fr/de-victor-a-victor/']
   },
-  derailleur: {
-    title: 'LE DERAILLEUR',
+  train: {
+    title: 'LE TRAIN FANTOME',
     desc: 'Cie Bitonio',
     date: 'SAMEDI - en continu - Place STATION DES SENS',
     para: [
