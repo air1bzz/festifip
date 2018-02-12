@@ -222,6 +222,7 @@ function bandMain (bandTag) {
       var a = document.createElement('a')
       a.setAttribute('class', 'band-text')
       a.setAttribute('href', link)
+      a.setAttribute('target', '_blank')
       a.innerText = link
       mainElem.appendChild(a)
     }
