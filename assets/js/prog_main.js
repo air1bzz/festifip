@@ -197,7 +197,7 @@ function bandMain (bandTag) {
   var dateElem = document.getElementById('band-date')
   var mainElem = document.getElementById('band')
   var navElem = document.getElementById(bandTag)
-  var src = '/festifip/assets/img/' + bandTag + '.jpg'
+  var src = '/assets/img/' + bandTag + '.jpg'
 
   titleElem.innerText = band.title
   descElem.innerText = band.desc

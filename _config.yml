@@ -18,8 +18,8 @@ email: festifip@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Le Festival International de Puceul (44) est un festival mélant arts de rues
   et musique pendant un week-end.
-baseurl: /festifip # the subpath of your site, e.g. /blog
-url: "" # http://festifip.fr # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://festifip.fr # the base hostname & protocol for your site, e.g. http://example.com
 github_username: air1bzz
 
 # Build settings
