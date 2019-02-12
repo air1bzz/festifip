@@ -1,36 +1,49 @@
 #prog-page
-  position: absolute
+  width: 100%
+  height: 100%
+  display: flex
+  flex-direction: column
+  background-image: url('../img/pageprog.jpg')
   main
     position: relative
-    top: 85px
-    left: 85px
+    top: 46px
+    left: 542px
     display: flex
+    width: 824px
+
+#nav-buttons
+  margin-left: 888px
+  margin-top: 60px
+  z-index: 1
+  // a
+  //   &:hover
+  //     animation: shake 0.5s 2
 
 #band
   margin-left: 20px
   h2
-    font-family: 'ChunkFive', 'Arial', serif
-    font-size: 2.2em
+    font-family: 'the dead saloon', 'Arial', serif
+    font-size: 1.8em
     font-weight: normal
-    color: #738496
+    color: $red
     margin-top: -6px
     margin-bottom: 0px
   .band-text
-    font-family: 'Arial', serif
-    font-size: 0.9em
+    font-family: 'Myriad Pro', 'Arial', serif
+    font-size: 1.1em
     width: 550px
-    margin: 0 0 4px 0
+    margin: 0 0 2px 0
     text-align: justify
     display: block
 
 #band-description
-  margin: -9px 0 0 0
-  font-family: 'Times New Roman', 'Arial', serif
+  margin: 0px 0px 0px 0px
+  font-family: 'Euphorigenic', 'Arial', serif
   font-size: 1.2em
 
 #band-date
   margin: 5px 0 5px 0
-  font-family: 'Arial', serif
+  font-family: 'BabelSans', 'Arial', serif
   font-size: 1em
   color: #CEA227
   font-weight: bold
@@ -38,27 +51,30 @@
 
 #prog
   position: relative
-  top: 70px
+  top: 130px
+  display: flex
   nav
     display: flex
     justify-content: space-around
     margin-top: 10px
+    width: 1200px
+    margin-left: 50px
     div
       display: flex
       flex-direction: column
       align-items: center
-      font-family: 'ChunkFive', 'Arial', serif
-      color: $normal-color
+      font-family: 'the dead saloon', 'Arial', serif
       h2
         cursor: pointer
-        margin-top: 2px
+        margin-top: 7px
         margin-bottom: 0
-        font-size: 1.1em
+        font-size: 1.3em
         font-weight: normal
         color: inherit
+        // color: $red
 
       p
-        margin-top: -6px
+        margin-top: 2px
         font-family: 'Arial', serif
         font-size: 0.8em
         font-weight: normal
@@ -70,16 +86,16 @@
   flex-direction: column
   align-items: center
 
-#saturday
+#friday
   position: relative
   left: 53px
+  div:nth-child(2)
+    margin-top: 130px
 
-#saturday-night
+#saturday
   position: relative
   left: 30px
 
 #sunday
   position: relative
   left: -6px
-  div:last-child
-    margin-top: 40px
