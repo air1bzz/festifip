@@ -41,6 +41,27 @@ var bands = {
       "lectures chuchotées, ateliers improvisés, discussions."
     ]
   },
+  bitonio: {
+    title: 'LE BAR ANIME',
+    desc: 'Cie Bitonio',
+    date: 'samedi et dimanche - en continu',
+    para: [
+      "Le bar de Marcel et Alice propose une manière originale de se faire servir une boisson :",
+      "glissez votre jeton dans le décolleté de Madame, ou au travers des dents",
+      "du bonheur de Monsieur, et c'est le sourire assuré !"
+    ],
+    links: ['http://www.ciebitonio.fr']
+  },
+  kutcuk: {
+    title: 'KUTCUK MANEJ',
+    desc: 'manège enfant',
+    date: 'samedi et dimanche - en continu',
+    para: [
+      "Le Kütçük Manej est une attraction pour les enfants de 3 à 10 ans. Un petit manège à manivelle",
+      "qui tourne dans une ambiance de bulles, de paillettes et de bonbons."
+    ],
+    links: ['https://www.kutcukmanej.com']
+  },
   meduses: {
     title: 'LES MEDUSES DANSENT SOUVENT AVEC LA LUNE',
     desc: 'Cie la cabane',
