@@ -1,5 +1,8 @@
 <nav>
-  <!-- <a id="home" href="{% link index.md %}">Accueil</a> -->
-  <a id="prog-link" href="{{ site.baseurl }}{% link prog.html %}">Programmation</a>
-  <a id="infos-link" href="{{ site.baseurl }}{% link infos.html %}">Infos pratiques</a>
+  <a id="prog-link" class="button" href="{{ site.baseurl }}{% link prog.html %}">
+    <img src="{{ "/assets/img/programmation.png" | relative_url }}" alt="Programmation">
+  </a>
+  <a id="infos-link" class="button" href="{{ site.baseurl }}{% link infos.html %}">
+    <img src="{{ "/assets/img/infospratiques.png" | relative_url }}" alt="Infos pratiques">
+  </a>
 </nav>
