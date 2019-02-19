@@ -4,11 +4,7 @@ var bands = {
     desc: "Collectif Les Improvizeurs",
     date: "21h00 – Café « Chez Tonton » - cabaret d’impro et jam session - entrée libre",
     para: [
-      "Le collectif des Improvizeurs, c'est une douzaine de personnes qui ont pris l'habitude",
-      "de se retrouver une fois par mois avec leurs instruments, autour de Saffré.",
-      'Lors de ces sessions, on y pratique des bœufs spontanés, du sound-painting et des reprises.',
-      'Tous les styles de musiques sont les bienvenus !',
-      'Le collectif vous présentera son cabaret avec des matchs d’impro et des surprises...'
+      "Le collectif des Improvizeurs, c'est une douzaine de personnes qui ont pris l'habitude de se retrouver une fois par mois avec leurs instruments, autour de Saffré. Lors de ces sessions, on y pratique des bœufs spontanés, du sound-painting et des reprises. Tous les styles de musiques sont les bienvenus ! Le collectif vous présentera son cabaret avec des matchs d’impro et des surprises..."
     ]
   },
   morin: {
@@ -16,9 +12,7 @@ var bands = {
     desc: "Mic Mac Cie",
     date: 'en continu - entresort fulgurant – à partir de 7 ans',
     para: [
-      "L'agence Morin propose une forme de voyage révolutionnaire qui a su s'adapter à l'air du temps:",
-      "dans un monde où tout va vite, où les nouvelles technologies sont omniprésentes,",
-      "l'Agence Morin relève le défi et vous propose le tour du monde en 80 secondes."
+      "L'agence Morin propose une forme de voyage révolutionnaire qui a su s'adapter à l'air du temps: dans un monde où tout va vite, où les nouvelles technologies sont omniprésentes, l'Agence Morin relève le défi et vous propose le tour du monde en 80 secondes."
     ]
   },
   momette: {
@@ -26,8 +20,7 @@ var bands = {
     desc: 'Momette',
     date: 'en continu - entresorts intimistes et tout terrain – à partir de 5 ans',
     para: [
-      "Petite forme masquée, sans parole mais avec le cœur",
-      "et petite prouesse de table au swing désinvolte."
+      "Petite forme masquée, sans parole mais avec le cœur et petite prouesse de table au swing désinvolte."
     ]
   },
   livrairie: {
@@ -35,10 +28,7 @@ var bands = {
     desc: 'Cie du Monde Entier',
     date: 'en continu - librairie ambulante',
     para: [
-      "La Librairie-café du monde entier est un lieu d’accueil public itinérant, installé autour",
-      "d’une remorque. Un lieu de détente, d’imagination et d’échanges autour du livre, provoquant",
-      "la circulation du livre. Sur ce lieu-librairie nous stimulons les griffons impromptus:",
-      "lectures chuchotées, ateliers improvisés, discussions."
+      "La Librairie-café du monde entier est un lieu d’accueil public itinérant, installé autour d’une remorque. Un lieu de détente, d’imagination et d’échanges autour du livre, provoquant la circulation du livre. Sur ce lieu-librairie nous stimulons les griffons impromptus: lectures chuchotées, ateliers improvisés, discussions."
     ]
   },
   bitonio: {
@@ -46,9 +36,7 @@ var bands = {
     desc: 'Cie Bitonio',
     date: 'samedi et dimanche - en continu',
     para: [
-      "Le bar de Marcel et Alice propose une manière originale de se faire servir une boisson :",
-      "glissez votre jeton dans le décolleté de Madame, ou au travers des dents",
-      "du bonheur de Monsieur, et c'est le sourire assuré !"
+      "Le bar de Marcel et Alice propose une manière originale de se faire servir une boisson: glissez votre jeton dans le décolleté de Madame, ou au travers des dents du bonheur de Monsieur, et c'est le sourire assuré !"
     ],
     links: ['http://www.ciebitonio.fr']
   },
@@ -57,8 +45,7 @@ var bands = {
     desc: 'manège enfant',
     date: 'samedi et dimanche - en continu',
     para: [
-      "Le Kütçük Manej est une attraction pour les enfants de 3 à 10 ans. Un petit manège à manivelle",
-      "qui tourne dans une ambiance de bulles, de paillettes et de bonbons."
+      "Le Kütçük Manej est une attraction pour les enfants de 3 à 10 ans. Un petit manège à manivelle qui tourne dans une ambiance de bulles, de paillettes et de bonbons."
     ],
     links: ['https://www.kutcukmanej.com']
   },
@@ -67,9 +54,7 @@ var bands = {
     desc: 'Cie la cabane',
     date: '15h00 - danse musique poésie – à partir de 3 ans',
     para: [
-      "Deux danseuses, un accordéoniste et une écrivaine pour 3 saynètes qui ouvrent",
-      "des espaces de jeu avec le public.",
-      "Laissez-vous prendre à l’invitation d’une poésie renversée par la danse."
+      "Deux danseuses, un accordéoniste et une écrivaine pour 3 saynètes qui ouvrent des espaces de jeu avec le public. Laissez-vous prendre à l’invitation d’une poésie renversée par la danse."
     ],
     links: ['http://www.compagnielacabane.fr']
   },
@@ -78,11 +63,7 @@ var bands = {
     desc: 'Cie Facile d’excès',
     date: '16h30 – duo de cordes à sauter – à partir de 3 ans',
     para: [
-      "Un duo prêt à tout...ou presque...ou du moins à tout ce dont ils se sentent capables...à leur façon !",
-      "De la démesure toute en finesse...",
-      "L’important n’est pas d’atteindre le but, le principal c’est l’ascension...",
-      "L’objectif n’étant pas de devenir célèbre mais juste quelqu’un et ce sera déjà pas mal...",
-      "bref, un moment de légèreté où le rapport direct avec le public prime !"
+      "Un duo prêt à tout... ou presque... ou du moins à tout ce dont ils se sentent capables... à leur façon ! De la démesure toute en finesse... L’important n’est pas d’atteindre le but, le principal c’est l’ascension... L’objectif n’étant pas de devenir célèbre mais juste quelqu’un et ce sera déjà pas mal... Bref, un moment de légèreté où le rapport direct avec le public prime !"
     ],
     links: ["http://faciledexces.blogspot.com"]
   },
@@ -91,11 +72,7 @@ var bands = {
     desc: 'Cie Tetrofort',
     date: '18h00 - spectacle en carton – à partir de 3 ans',
     para: [
-      "Dans un univers de carton brut, matière première utilisée pour les décors,",
-      "les costumes et les accessoires, une dizaine de personnages décalés vont se croiser",
-      "dans une ambiance déjantée. Partons alors à l’aventure avec Raoul, un chevalier arrogant",
-      "et maladroit, prêt à tout pour sauver une princesse vraiment blonde,",
-      "emprisonnée dans le château de la cruelle sorcière Saperli."
+      "Dans un univers de carton brut, matière première utilisée pour les décors, les costumes et les accessoires, une dizaine de personnages décalés vont se croiser dans une ambiance déjantée. Partons alors à l’aventure avec Raoul, un chevalier arrogant et maladroit, prêt à tout pour sauver une princesse vraiment blonde, emprisonnée dans le château de la cruelle sorcière Saperli."
     ],
     links: ['http://www.tetrofort.com/pages/raoul-le-chevalier.html']
   },
@@ -104,12 +81,7 @@ var bands = {
     desc: 'Fanfare afro insolite',
     date: '19h00 et 21h30 – concert mouvant',
     para: [
-      "Fanfare afro insolite, KAFI est un mix de percussions africaines endiablées et de mélodies",
-      "cuivrées aux diverses influences, le tout servi façon arts de la rue et déambulation.",
-      "« 50% de matière Brass », met en scène 4 percussionnistes imprégnés de tradition d’Afrique",
-      "de l’Ouest, associés à 4 soufflants dont les influences passent par les 3 continents que sont",
-      "l’Amérique, l’Europe et l’Afrique. Ils fusionnent autour d'un répertoire de compositions originales",
-      "et de reprises inédites."
+      "Fanfare afro insolite, KAFI est un mix de percussions africaines endiablées et de mélodies cuivrées aux diverses influences, le tout servi façon arts de la rue et déambulation. « 50% de matière Brass », met en scène 4 percussionnistes imprégnés de tradition d’Afrique de l’Ouest, associés à 4 soufflants dont les influences passent par les 3 continents que sont l’Amérique, l’Europe et l’Afrique. Ils fusionnent autour d'un répertoire de compositions originales et de reprises inédites."
     ],
     links: ['http://www.kafi-musique.fr']
   },
@@ -118,10 +90,7 @@ var bands = {
     desc: 'Cie Energumen',
     date: '20h30 – cirque n’roll – à partir de 5 ans',
     para: [
-      "Rock Tripes, c'est le voyage de Youri, Mud et Argo guidé par les apparitions vocales de leur père.",
-      "L'univers de cette fratrie est décalé ; les relations se jouent de façon physique dans les regards,",
-      "l'acrobatie, la danse, la manipulation d'objets. La bande son rock accompagne les personnages",
-      "dans une quête poétique et burlesque à travers les routes, les bars, les océans et votre imaginaire !"
+      "Rock Tripes, c'est le voyage de Youri, Mud et Argo guidé par les apparitions vocales de leur père. L'univers de cette fratrie est décalé ; les relations se jouent de façon physique dans les regards, l'acrobatie, la danse, la manipulation d'objets. La bande son rock accompagne les personnages dans une quête poétique et burlesque à travers les routes, les bars, les océans et votre imaginaire !"
     ],
     links: ['http://cie.energumen.free.fr/rocktripes.html']
   },
@@ -130,11 +99,7 @@ var bands = {
     desc: "Jazz Rock Trans",
     date: '22h30 - concert',
     para: [
-      "De Luis Mariano à Tom Waits, il y a un écart, un grand écart dans lequel la tribu",
-      "Des Lions pour Des Lions se plait à imaginer sa musique. S’il fallait nommer cette sphère,",
-      "elle s’appellerait «transe», la transe apatride que l’on retrouve dans le rock, la musique",
-      "africaine et indienne, le blues, la musique noise, le jazz, formant ainsi un ensemble musical",
-      "totalement libre et inventif !"
+      "De Luis Mariano à Tom Waits, il y a un écart, un grand écart dans lequel la tribu 'Des Lions pour Des Lions' se plait à imaginer sa musique. S’il fallait nommer cette sphère, elle s’appellerait «transe», la transe apatride que l’on retrouve dans le rock, la musique africaine et indienne, le blues, la musique noise, le jazz, formant ainsi un ensemble musical totalement libre et inventif !"
     ],
     links: ['https://www.deslionspourdeslions.com']
   },
@@ -143,9 +108,7 @@ var bands = {
     desc: 'FIP Sound System',
     date: '00h00 – bal dansant',
     para: [
-      "Tel un grand crew millésimé, le staff du FIP vous distillera une selection de titres",
-      "internationaux ne manquant pas de cuisse !",
-      "De quoi enflammer le dance-floor..."
+      "Tel un grand crew millésimé, le staff du FIP vous distillera une selection de titres internationaux ne manquant pas de cuisse ! De quoi enflammer le dance-floor..."
     ]
   },
   mouchu: {
@@ -153,10 +116,7 @@ var bands = {
     desc: 'Cie D’ici et d’ailleurs',
     date: '14h00 - spectacle enfant - à partir de 5 ans',
     para: [
-      "Mouchu nous emmène sur les pas vifs de Max, un enfant à l’âge de la découverte du monde,",
-      "de toutes les curiosités. Quand Max trouve par hasard une heure que quelqu’un a « perdue » là,",
-      "sur le trottoir, le conte du quotidien bascule dans l’aventure fantastique. Drôle, poétique, surréaliste,",
-      "Mouchu invite enfants et adultes à réfléchir ensemble sur le monde et ses transformations."
+      "Mouchu nous emmène sur les pas vifs de Max, un enfant à l’âge de la découverte du monde, de toutes les curiosités. Quand Max trouve par hasard une heure que quelqu’un a « perdue » là, sur le trottoir, le conte du quotidien bascule dans l’aventure fantastique. Drôle, poétique, surréaliste, Mouchu invite enfants et adultes à réfléchir ensemble sur le monde et ses transformations."
     ],
     links: ['https://fr-fr.facebook.com/theatre.d.dailleurs']
   },
@@ -165,12 +125,7 @@ var bands = {
     desc: 'Madame Suzie Productions',
     date: '15h15 – chanson voyageuse - à partir de 5 ans',
     para: [
-      "Duo atteint de cosmopolitisme hésitant entre le cabaret et l'ethnologie. Elles sont jumelles,",
-      "chanteuses, danseuses, comédienne ET baroudeuses. L'aventure ne leur fait pas peur ;",
-      "l'a capella non plus !",
-      "Equipées d'une solide paire de pompes, de leur bon goût qui sera légendaire sous peu",
-      "et d'une imagination quasi-envahissante, elles embarquent leur auditoire pour une balade vocale",
-      "et féminine all ovaire the world."
+      "Duo atteint de cosmopolitisme hésitant entre le cabaret et l'ethnologie. Elles sont jumelles, chanteuses, danseuses, comédienne ET baroudeuses. L'aventure ne leur fait pas peur ; l'a capella non plus ! Equipées d'une solide paire de pompes, de leur bon goût qui sera légendaire sous peu et d'une imagination quasi-envahissante, elles embarquent leur auditoire pour une balade vocale et féminine all ovaire the world."
     ],
     links: [
       'http://www.madamesuzie.com/index.php'
@@ -181,11 +136,7 @@ var bands = {
     desc: 'Cabaret excentrique',
     date: '16h30 - concert - à partir de 5 ans',
     para: [
-      "Nefertiti in the Kitchen est un duo déjanté, une rencontre entre une chanteuse de rue",
-      "au tempérament bien trempé et un homme-orchestre barbu. Jen Rival, Nicolas Méheust",
-      "et leur joyeux bastringue nous emmène dans un univers forain rappelant les années folles.",
-      "Entre accordéon électrique, boite à musique, Mellotron et autres curiosités, laissez-vous porter",
-      "dans ce Kabaret punK psychédélique !"
+      "Nefertiti in the Kitchen est un duo déjanté, une rencontre entre une chanteuse de rue au tempérament bien trempé et un homme-orchestre barbu. Jen Rival, Nicolas Méheust et leur joyeux bastringue nous emmène dans un univers forain rappelant les années folles. Entre accordéon électrique, boite à musique, Mellotron et autres curiosités, laissez-vous porter dans ce Kabaret punK psychédélique !"
     ],
     links: [
       'http://www.nefertitiinthekitchen.com'
@@ -217,10 +168,10 @@ function bandMain (bandTag) {
   }
 
   for (var text of band.para) {
-    var p = document.createElement('p')
-    p.setAttribute('class', 'band-text')
-    p.innerText = text
-    mainElem.appendChild(p)
+    var div = document.createElement('div')
+    div.setAttribute('class', 'band-text')
+    div.innerText = text
+    mainElem.appendChild(div)
   }
 
   if (band.links) {
