@@ -121,11 +121,11 @@ var bands = {
     links: ['https://fr-fr.facebook.com/theatre.d.dailleurs']
   },
   tartellini: {
-    title: 'LES SOEURS TARTELLINI CHANTENT LE WORLD',
-    desc: 'Madame Suzie Productions',
-    date: '15h15 – chanson voyageuse - à partir de 5 ans',
+    title: 'LES SOEURS TARTELLINI',
+    desc: 'de bouche à oreille - Madame Suzie',
+    date: 'Dimanche - entre 15h et 16h30 - Impromptus a capella',
     para: [
-      "Duo atteint de cosmopolitisme hésitant entre le cabaret et l'ethnologie. Elles sont jumelles, chanteuses, danseuses, comédienne ET baroudeuses. L'aventure ne leur fait pas peur ; l'a capella non plus ! Equipées d'une solide paire de pompes, de leur bon goût qui sera légendaire sous peu et d'une imagination quasi-envahissante, elles embarquent leur auditoire pour une balade vocale et féminine all ovaire the world."
+      "Si vous croisez leur chemin, arrêtez-vous ! Vous pourriez bien partir à l’autre bout du monde. Le temps d’une chanson, elles vous emmèneront dans un voyage aux sonorités de votre choix. Fermez les yeux, c’est rien que pour vous."
     ],
     links: [
       'http://www.madamesuzie.com/index.php'
