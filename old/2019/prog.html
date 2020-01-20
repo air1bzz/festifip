@@ -1,0 +1,104 @@
+---
+layout: page
+title: FIP | Programmation
+section_id: prog-page
+permalink: programmation
+---
+
+<main>
+  <img id="band-img" src="{{ "/assets/img/improvizeurs.jpg" | relative_url }}" alt="muma">
+  <section id="band">
+    <h2 id="band-title">JAM IN PUCEUL</h2>
+    <p id="band-description">Collectif Les Improvizeurs</p>
+    <p id="band-date">21h00 – Café « Chez Tonton » - cabaret d’impro et jam session - entrée libre</p>
+    <div class="band-text">Le collectif des Improvizeurs, c'est une douzaine de personnes qui ont pris l'habitude de se retrouver une fois par mois avec leurs instruments, autour de Saffré. Lors de ces sessions, on y pratique des bœufs spontanés, du sound-painting et des reprises. Tous les styles de musiques sont les bienvenus ! Le collectif vous présentera son cabaret avec des matchs d’impro et des surprises...</div>
+  </section>
+</main>
+
+<section id="prog">
+  <nav id="nav-prog">
+    <section id="friday">
+      <div id="improvizeurs">
+        <h2 onclick="bandMain('improvizeurs')">COLLECTIF LES IMPROVIZEURS</h2>
+        <p>Cabaret d'impro musicale</p>
+        <p>+ jam session</p>
+      </div>
+      <div id="morin">
+        <h2 onclick="bandMain('morin')">L’AGENCE DE VOYAGE MORIN</h2>
+        <p>entresort fulgurant</p>
+      </div>
+      <div id="momette">
+        <h2 onclick="bandMain('momette')">MOMETTE</h2>
+        <p>petites formes théatrales</p>
+      </div>
+      <div id="livrairie">
+        <h2 onclick="bandMain('livrairie')">LA LIVRAIRIE</h2>
+        <p>librairie ambulante</p>
+      </div>
+      <div class="side-elem">
+        <div id="kutcuk">
+          <h2 onclick="bandMain('kutcuk')">KUTCUK MANEJ</h2>
+          <p>manège enfant</p>
+        </div>
+        <div id="bitonio">
+          <h2 onclick="bandMain('bitonio')">LE BAR ANIME</h2>
+          <p>Cie Bitonio</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="saturday">
+      <div id="meduses">
+        <h2 onclick="bandMain('meduses')">LES MEDUSES DANSENT SOUVENT AVEC LA LUNE</h2>
+        <p>danse, musique et poésie</p>
+      </div>
+      <div id="maintenir">
+        <h2 onclick="bandMain('maintenir')">MAINTENIR</h2>
+        <p>duo de cordes à sauter</p>
+      </div>
+      <div id="raoul">
+        <h2 onclick="bandMain('raoul')">RAOUL LE CHEVALIER</h2>
+        <p>spectacle en carton</p>
+      </div>
+      <div id="kafi">
+        <h2 onclick="bandMain('kafi')">KAFI</h2>
+        <p>fanfare afro insolite</p>
+      </div>
+      <div id="tripes">
+        <h2 onclick="bandMain('tripes')">ROCKTRIPES</h2>
+        <p>cirque n’roll</p>
+      </div>
+      <div id="lions">
+        <h2 onclick="bandMain('lions')">DES LIONS POUR DES LIONS</h2>
+        <p>rock tribal</p>
+      </div>
+      <div id="floor">
+        <h2 onclick="bandMain('floor')">DANCE ON ZE FLOOR</h2>
+        <p>FIP sound system</p>
+      </div>
+    </section>
+
+    <section id="sunday">
+      <div id="tartellini">
+        <h2 onclick="bandMain('tartellini')">LES SOEURS TARTELLINI</h2>
+        <p>chansons "world" déambulées</p>
+      </div>
+      <div id="mouchu">
+        <h2 onclick="bandMain('mouchu')">MOUCHU</h2>
+        <p>spectacle enfant</p>
+      </div>
+      <div id="nefertiti">
+        <h2 onclick="bandMain('nefertiti')">NEFERTITI IN THE KITCHEN</h2>
+        <p>cabaret excentrique</p>
+      </div>
+    </section>
+  </nav>
+</section>
+<nav id="nav-buttons">
+  <a class="button" href="{{ site.baseurl }}{% link index.md %}">
+    <img src="{{ "/assets/img/acceuil.png" | relative_url }}" alt="Acceuil">
+  </a>
+  <a class="button" href="{{ site.baseurl }}{% link infos.html %}">
+    <img src="{{ "/assets/img/infospratiques.png" | relative_url }}" alt="Infos pratiques">
+  </a>
+</nav>
