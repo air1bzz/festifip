@@ -5,88 +5,106 @@
   flex-direction: column
   background-image: url('../img/pageprog.jpg')
   main
-    margin-left: 541px
-    margin-top: 29px
+    margin: 60px 90px 0 109px
     display: flex
 
-#nav-buttons
-  margin-left: 888px
-  margin-top: -82px
-  z-index: 1
+#up-nav-prog
+  display: flex
+  .nav-buttons
+    display: flex
+    margin-top: 380px
+    margin-left: 190px
+    justify-content: space-between
+    width: 376px
+    flex-shrink: 0
 
 #band
   margin-left: 20px
-  h2
-    font-family: 'the dead saloon', 'Arial', serif
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  .extra
+    font-family: 'bebas_neue_regular', 'Arial', serif
     font-size: 1.8em
+    margin: 0 0 0 0
+  h2
+    font-family: 'kg_all_of_me_regular', 'Arial', serif
+    font-size: 3.5em
     font-weight: normal
-    color: $red
-    margin-top: -6px
-    margin-bottom: 0px
+    color: #E6B552
+    margin: 0 0 0 0
   .band-text
-    font-family: 'Myriad Pro', 'Arial', serif
-    font-size: 1.1em
-    width: 490px
+    font-family: 'Arial', serif
+    font-size: 1.0em
     margin: 0 0 2px 0
     text-align: justify
     display: block
+  a.band-text
+    color: $yellow
+    font-weight: bold
+    text-decoration: none 
 
 #band-img
-  width: 265px
-  height: 265px
+  width: 430px
+  height: 430px
 
 #band-description
-  margin: 0px 0px 0px 0px
-  font-family: 'Euphorigenic', 'Arial', serif
-  font-size: 1.2em
+  margin: -14px 0 0 0
+  font-family: 'Arial', serif
+  font-size: 1.5em
+  font-stretch: expanded
 
 #band-date
   margin: 5px 0 5px 0
-  font-family: 'BabelSans', 'Arial', serif
-  font-size: 1em
-  color: #CEA227
+  font-family: 'Arial', serif
+  font-size: 1.2em
+  color: #9E7B9F
   font-weight: bold
-  font-stretch: condensed
 
 #friday
   h2
     margin-top: 1px
     left: 53px
-  div:nth-child(2)
+  div:last-child
     margin-top: 90px
-  .side-elem
-    width: 250px
-    display: flex
-    flex-direction: row
-    justify-content: space-between
-#bitonio
-  margin-top: 0 !important
+  div:nth-child(4)
+    border-bottom-style: dotted
 
 #prog
-  margin-top: 85px
+  margin-top: 141px
   display: flex
+  justify-content: center
   nav
     display: flex
-    margin-top: 10px
-    margin-left: 161px
+    width: 100%
+    justify-content: space-between
+    margin-left: 120px
+    margin-right: 115px
+    section
+      width: 500px
+      div:last-child
+        border-bottom-style: dotted
+        padding-bottom: 5px 
     div
       display: flex
-      flex-direction: column
-      align-items: center
-      font-family: 'the dead saloon', 'Arial', serif
+      align-items: last baseline
+      justify-content: center
+      font-family: 'bebas_neue_regular', 'Arial', serif
+      border-top-style: dotted
+      border-color: $yellow
+      margin-bottom: 7px
       h2
         cursor: pointer
         margin-top: 7px
         margin-bottom: 0
-        font-size: 1.3em
+        font-size: 1.7em
         font-weight: normal
-        color: inherit
+        color: $purple
       p
-        margin-top: 2px
+        margin: 7px 0 0 12px
         font-family: 'Arial', serif
-        font-size: 0.8em
+        font-size: 1.0em
         font-weight: normal
-        margin-bottom: 3px
         color: inherit
 
 #saturday

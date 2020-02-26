@@ -4,3 +4,55 @@ title: FIP | Medias
 section_id: medias-page
 permalink: medias
 ---
+
+<main>
+    <section>
+        <img id="poster" src="{{ "/assets/img/Af2019.jpg" | relative_url }}" alt="Edition 2019">
+        <section class="links">
+            <section id="thumbnails">
+                <img id="ap1" onclick="modalAction(1)" class="pointer" src="{{ "/assets/img/ap1-2019.jpg" | relative_url }}" alt="">
+                <img id="ap2" onclick="modalAction(2)" class="pointer" src="{{ "/assets/img/ap2-2019.jpg" | relative_url }}" alt="">
+                <img id="ap3" onclick="modalAction(3)" class="pointer" src="{{ "/assets/img/ap3-2019.jpg" | relative_url }}" alt="">
+                <img id="ap4" onclick="modalAction(4)" class="pointer" src="{{ "/assets/img/ap4-2019.jpg" | relative_url }}" alt="">
+                <img id="ap5" onclick="modalAction(5)" class="pointer" src="{{ "/assets/img/ap5-2019.jpg" | relative_url }}" alt="">
+                <img id="ap6" onclick="modalAction(6)" class="pointer" src="{{ "/assets/img/ap6-2019.jpg" | relative_url }}" alt="">
+                <img id="ap7" onclick="modalAction(7)" class="pointer" src="{{ "/assets/img/ap7-2019.jpg" | relative_url }}" alt="">
+                <img id="ap8" onclick="modalAction(8)" class="pointer" src="{{ "/assets/img/ap8-2019.jpg" | relative_url }}" alt="">
+                <img id="ap9" onclick="modalAction(9)" class="pointer" src="{{ "/assets/img/ap9-2019.jpg" | relative_url }}" alt="">
+            </section>
+            <section id="movies">
+                <a href="https://www.youtube.com/watch?v=J8gNNV1sDfE" target="_blank">
+                    <img src="{{ "/assets/img/teaser2019.png" | relative_url }}" alt="">
+                </a>
+                <a href="https://www.youtube.com/watch?v=gC6xYWVUZNk&feature=emb_logo" target="_blank">
+                    <img src="{{ "/assets/img/aftermov2019.png" | relative_url }}" alt="">
+                </a>
+            </section>
+        </section>
+    </section>
+    <nav>
+        <section class="years">
+            <img id="2014" class="pointer" onclick="dateAction(2014)" src="{{ "/assets/img/2014-off.png" | relative_url }}" alt="">
+            <img id="2016" class="pointer" onclick="dateAction(2016)" src="{{ "/assets/img/2016-off.png" | relative_url }}" alt="">
+            <img id="2017" class="pointer" onclick="dateAction(2017)" src="{{ "/assets/img/2017-off.png" | relative_url }}" alt="">
+            <img id="2018" class="pointer" onclick="dateAction(2018)" src="{{ "/assets/img/2018-off.png" | relative_url }}" alt="">
+            <img id="2019" class="pointer" onclick="dateAction(2019)" src="{{ "/assets/img/2019-on.png" | relative_url }}" alt="">
+        </section>
+        <section class="page-nav">
+            <a id="prog-link" class="shake-me" href="{{ site.baseurl }}{% link prog.html %}">
+                <img src="{{ "/assets/img/prog_button.png" | relative_url }}" alt="Programmation">
+            </a>
+            <a id="infos-link" class="shake-me" href="{{ site.baseurl }}{% link infos.html %}">
+                <img src="{{ "/assets/img/infos_button.png" | relative_url }}" alt="Infos pratiques">
+            </a>
+            <a id="medias-link" class="shake-me" href="{{ site.baseurl }}{% link index.md %}">
+                <img src="{{ "/assets/img/home_button.png" | relative_url }}" alt="Medias">
+            </a>
+        </section>
+    </nav>
+</main>
+
+<div id="modal">
+    <span id="close">&times;</span>
+    <img id="modal-content">
+</div>
