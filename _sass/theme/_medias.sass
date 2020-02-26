@@ -1,0 +1,103 @@
+#medias-page
+  width: 100%
+  height: 100%
+  display: flex
+  background-image: url('../img/pagemedia.jpg')
+  main
+    display: flex
+    flex-direction: column
+    margin-left: 430px
+    margin-top: 100px
+    width: 1153px
+    section
+      display: flex
+    .links
+      display: flex
+      flex-direction: column
+      margin-top: 40px
+      margin-left: 40px
+    #movies
+      display: flex
+      flex-direction: column
+      height: 110px
+      justify-content: space-between
+      a
+        height: 37px
+        margin-top: 17px
+        width: min-content
+    #poster
+      width: 533px
+      height: 752px
+    #thumbnails 
+      display: flex
+      justify-content: space-between
+      width: 580px
+      flex-wrap: wrap
+      height: 600px
+      img
+        height: 180px
+        &:hover
+          opacity: 0.7
+    nav
+      display: flex
+      margin-top: 31px
+    .years
+      width: 533px
+      justify-content: space-around
+      align-items: center
+    .page-nav
+      width: 440px
+      justify-content: space-around
+      margin-left: 40px
+  .pointer      
+    &:hover
+      cursor: pointer
+  #modal
+    display: none // Hidden by default
+    position: fixed // Stay in place
+    z-index: 1 // Sit on top
+    padding-top: 100px // Location of the box
+    left: 0
+    top: 0
+    width: 100% // Full width
+    height: 100% // Full height
+    overflow: auto // Enable scroll if needed
+    background-color: rgb(0,0,0) // Fallback color
+    background-color: rgba(0,0,0,0.9) // Black w/ opacity
+  #modal-content
+    margin: auto
+    display: block
+    width: 80%
+    max-width: 700px
+    -webkit-animation-name: zoom
+    -webkit-animation-duration: 0.6s
+    animation-name: zoom
+    animation-duration: 0.6s
+  #close 
+    position: absolute
+    top: 15px
+    right: 35px
+    color: #f1f1f1
+    font-size: 40px
+    font-weight: bold
+    transition: 0.3s
+    &:hover
+      color: #bbb
+      text-decoration: none
+      cursor: pointer
+  
+@-webkit-keyframes zoom 
+  0% 
+    -webkit-transform: scale(0)
+  100%
+    -webkit-transform: scale(1)
+
+@keyframes zoom 
+  0%
+    transform: scale(0)
+  100%
+    transform: scale(1)
+
+@media only screen and (max-width: 700px)
+  #modal-content 
+    width: 100%

@@ -5,100 +5,101 @@ section_id: prog-page
 permalink: programmation
 ---
 
-<main>
-  <img id="band-img" src="{{ "/assets/img/improvizeurs.jpg" | relative_url }}" alt="muma">
-  <section id="band">
-    <h2 id="band-title">JAM IN PUCEUL</h2>
-    <p id="band-description">Collectif Les Improvizeurs</p>
-    <p id="band-date">21h00 – Café « Chez Tonton » - cabaret d’impro et jam session - entrée libre</p>
-    <div class="band-text">Le collectif des Improvizeurs, c'est une douzaine de personnes qui ont pris l'habitude de se retrouver une fois par mois avec leurs instruments, autour de Saffré. Lors de ces sessions, on y pratique des bœufs spontanés, du sound-painting et des reprises. Tous les styles de musiques sont les bienvenus ! Le collectif vous présentera son cabaret avec des matchs d’impro et des surprises...</div>
-  </section>
-</main>
+<section id="up-nav-prog">
+	<nav class="nav-buttons">
+		<a class="shake-me" href="{{ site.baseurl }}{% link index.md %}">
+			<img src="{{ "/assets/img/home_button.png" | relative_url }}" alt="Acceuil">
+		</a>
+		<a class="shake-me" href="{{ site.baseurl }}{% link infos.html %}">
+			<img src="{{ "/assets/img/infos_button.png" | relative_url }}" alt="Infos pratiques">
+		</a>
+		<a class="shake-me" href="{{ site.baseurl }}{% link medias.html %}">
+			<img src="{{ "/assets/img/media_button.png" | relative_url }}" alt="Medias">
+		</a>
+	</nav>
+
+	<main>
+		<img id="band-img" src="{{ "/assets/img/skanky.jpg" | relative_url }}" alt="Skanky Combo">
+		<section id="band">
+			<p class="extra">CONCERT D'OUVERTURE DU FESTIVAL</p>
+			<h2 id="band-title">The Skanky Combo</h2>
+			<p id="band-description">Rocksteady - Nantes</p>
+			<p id="band-date">21h00 – Café « Chez Tonton » - entrée libre</p>
+			<div class="band-text">Formé sur les bords de la Loire et originaire de Nantes "The Skanky Combo" retrace avec passion et enthousiasme l'aventure que fut le Rocksteady de 1966 à 1968. La Soul à la sauce Jamaïcaine !</div>
+			<a class="band-text" target="_blank" href="www.facebook.com/therocksteadycombo">www.facebook.com/therocksteadycombo</a>
+		</section>
+	</main>
+</section>
 
 <section id="prog">
-  <nav id="nav-prog">
-    <section id="friday">
-      <div id="improvizeurs">
-        <h2 onclick="bandMain('improvizeurs')">COLLECTIF LES IMPROVIZEURS</h2>
-        <p>Cabaret d'impro musicale</p>
-        <p>+ jam session</p>
-      </div>
-      <div id="morin">
-        <h2 onclick="bandMain('morin')">L’AGENCE DE VOYAGE MORIN</h2>
-        <p>entresort fulgurant</p>
-      </div>
-      <div id="momette">
-        <h2 onclick="bandMain('momette')">MOMETTE</h2>
-        <p>petites formes théatrales</p>
-      </div>
-      <div id="livrairie">
-        <h2 onclick="bandMain('livrairie')">LA LIVRAIRIE</h2>
-        <p>librairie ambulante</p>
-      </div>
-      <div class="side-elem">
-        <div id="kutcuk">
-          <h2 onclick="bandMain('kutcuk')">KUTCUK MANEJ</h2>
-          <p>manège enfant</p>
-        </div>
-        <div id="bitonio">
-          <h2 onclick="bandMain('bitonio')">LE BAR ANIME</h2>
-          <p>Cie Bitonio</p>
-        </div>
-      </div>
-    </section>
+	<nav id="nav-prog">
+		<section id="friday">
+			<div id="walili">
+				<h2 onclick="bandMain('walili')">LA FÊTE FORAINE DES GLINGUÉS</h2>
+				<p>La Famille Walili</p>
+			</div>
+			<div id="bitonio">
+				<h2 onclick="bandMain('bitonio')">BAR ANIMÉ</h2>
+				<p>Cie Bitonio</p>
+			</div>
+			<div id="bulles_zinc">
+				<h2 onclick="bandMain('bulles_zinc')">LECTURES</h2>
+				<p>Cie Bulles de Zinc</p>
+			</div>
+			<div id="momette">
+				<h2 onclick="bandMain('momette')">VIENS !</h2>
+				<p>Momette - La Mine</p>
+			</div>
+			<div id="skanky">
+				<h2 onclick="bandMain('skanky')">THE SKANKY COMBO</h2>
+				<p>Rocksteady</p>
+			</div>
+		</section>
 
-    <section id="saturday">
-      <div id="meduses">
-        <h2 onclick="bandMain('meduses')">LES MEDUSES DANSENT SOUVENT AVEC LA LUNE</h2>
-        <p>danse, musique et poésie</p>
-      </div>
-      <div id="maintenir">
-        <h2 onclick="bandMain('maintenir')">MAINTENIR</h2>
-        <p>duo de cordes à sauter</p>
-      </div>
-      <div id="raoul">
-        <h2 onclick="bandMain('raoul')">RAOUL LE CHEVALIER</h2>
-        <p>spectacle en carton</p>
-      </div>
-      <div id="kafi">
-        <h2 onclick="bandMain('kafi')">KAFI</h2>
-        <p>fanfare afro insolite</p>
-      </div>
-      <div id="tripes">
-        <h2 onclick="bandMain('tripes')">ROCKTRIPES</h2>
-        <p>cirque n’roll</p>
-      </div>
-      <div id="lions">
-        <h2 onclick="bandMain('lions')">DES LIONS POUR DES LIONS</h2>
-        <p>rock tribal</p>
-      </div>
-      <div id="floor">
-        <h2 onclick="bandMain('floor')">DANCE ON ZE FLOOR</h2>
-        <p>FIP sound system</p>
-      </div>
-    </section>
+		<section id="saturday">
+			<div id="chers_cousins">
+				<h2 onclick="bandMain('chers_cousins')">CHERS COUSINS</h2>
+				<p>Cie Pied'Né</p>
+			</div>
+			<div id="clinty">
+				<h2 onclick="bandMain('clinty')">CLINTY</h2>
+				<p>Cie Stiven Cygalle</p>
+			</div>
+			<div id="mad_men">
+				<h2 onclick="bandMain('mad_men')">MAD MEN</h2>
+				<p>Cie Chute Libre</p>
+			</div>
+			<div id="arete_inutile">
+				<h2 onclick="bandMain('arete_inutile')">L'ARÊTE INUTILE</h2>
+				<p>Performance peinture</p>
+			</div>
+			<div id="terminus">
+				<h2 onclick="bandMain('terminus')">TERMINUS BRASS BAND</h2>
+				<p>Fanfare festive</p>
+			</div>
+			<div id="inextremiste">
+				<h2 onclick="bandMain('inextremiste')">EXTRÉMITÉS</h2>
+				<p>Cie Inextrémiste</p>
+			</div>
+			<div id="floor">
+				<h2 onclick="bandMain('floor')">DANCE ON ZE FLOOR</h2>
+				<p>Sub.Conscience + Cotillac sound system</p>
+			</div>
+		</section>
 
-    <section id="sunday">
-      <div id="tartellini">
-        <h2 onclick="bandMain('tartellini')">LES SOEURS TARTELLINI</h2>
-        <p>chansons "world" déambulées</p>
-      </div>
-      <div id="mouchu">
-        <h2 onclick="bandMain('mouchu')">MOUCHU</h2>
-        <p>spectacle enfant</p>
-      </div>
-      <div id="nefertiti">
-        <h2 onclick="bandMain('nefertiti')">NEFERTITI IN THE KITCHEN</h2>
-        <p>cabaret excentrique</p>
-      </div>
-    </section>
-  </nav>
+		<section id="sunday">
+			<div id="saffrisonne">
+				<h2 onclick="bandMain('saffrisonne')">WHY NOTE</h2>
+				<p>La Poly’sonnerie</p>
+			</div>
+			<div id="wilson">
+				<h2 onclick="bandMain('wilson')">MONSIEUR WILSON</h2>
+				<p>Cie Stéren</p>
+			</div>
+			<div id="heron">
+				<h2 onclick="bandMain('heron')">HÉRON & DUVAL</h2>
+				<p>Concert</p>
+			</div>
+		</section>
+	</nav>
 </section>
-<nav id="nav-buttons">
-  <a class="button" href="{{ site.baseurl }}{% link index.md %}">
-    <img src="{{ "/assets/img/acceuil.png" | relative_url }}" alt="Acceuil">
-  </a>
-  <a class="button" href="{{ site.baseurl }}{% link infos.html %}">
-    <img src="{{ "/assets/img/infospratiques.png" | relative_url }}" alt="Infos pratiques">
-  </a>
-</nav>

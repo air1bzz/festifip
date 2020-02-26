@@ -4,18 +4,19 @@ $purple: #9E7B9F
 
 @keyframes shake
   0%
-    transform: translate(0px,0px) rotate(0deg)
+    transform: rotate(0deg)
   25%
-    transform: translate(1px,1px) rotate(1deg)
+    transform: rotate(15deg)
   50%
-    transform: translate(-1px,-1px) rotate(-1deg)
+    transform: rotate(-10deg)
   75%
-    transform: translate(2px,-1px) rotate(2deg)
+    transform: rotate(4deg)
   100%
-    transform: translate(-1px,1px) rotate(-1deg)
+    transform: rotate(-2deg)
 
 // import partials
 @import "theme/main"
-// @import "theme/prog_page"
-// @import "theme/infos"
-// @import "theme/fonts"
+@import "theme/prog_page"
+@import "theme/medias"
+@import "theme/infos"
+@import "theme/fonts"
